@@ -1,60 +1,44 @@
+<html>
 <head>
-<title>Ishwarni Solutions</title>
-<meta name="description" content="">
-<meta name="author" content="">
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/animate.css">
-<link rel="stylesheet" href="css/font-awesome.min.css">
-<link rel="stylesheet" href="css/owl.theme.css">
-<link rel="stylesheet" href="css/owl.carousel.css">
-
-<!-- Main css -->
-<link rel="stylesheet" href="css/style.css">
-
-<!-- Google Font -->
-<link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600' rel='stylesheet' type='text/css'>
-
+<link rel="stylesheet" type="text/css" href="website_style.css">
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+function scrollto(div)
+{
+ $('html,body').animate(
+ {
+  scrollTop: $("#"+div).offset().top
+ },'slow');
+}
+</script>
 </head>
-</head>
-<body data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
+<body>
 
-<!-- =========================
-     PRE LOADER       
-============================== -->
-<div class="preloader">
-
-	<div class="sk-rotating-plane"></div>
-
+<div id="header">
+ <li id="site_name">TalkersCode.com</li>
+ <li onclick="scrollto('home');">HOME</li>
+ <li onclick="scrollto('about');">ABOUT</li>
+ <li onclick="scrollto('contact');">CONTACT</li>
 </div>
-  <div class="navbar navbar-fixed-top custom-navbar" role="navigation">
-	<div class="container">
 
-		<!-- navbar header -->
-		<div class="navbar-header">
-			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="icon icon-bar"></span>
-				<span class="icon icon-bar"></span>
-				<span class="icon icon-bar"></span>
-			</button>
-			<a href="#" class="navbar-brand">Ishwarni Solutions</a>
-		</div>
+<div id="home">
+ <h1>Demo Of One Page Website Template Using HTML, CSS And jQuery<p>TalkersCode.com</p></h1>
+ <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi nisi, rhoncus ut vestibulum ac, sollicitudin quis lorem. </p>
+</div>
 
-		<div class="collapse navbar-collapse">
+<div id="about">
+ <p>In this tutorial we will show you how to create One Page Website Template Using HTML, CSS And jQuery.Now you can build simple and beautiful website quickly.</p>
+ <p>TalkersCode.com is a complete destination to learn Web Development with Best, Fast and Easy Methods for those who is a novice and wants to be the Xpert in Web Development.</p>
+ <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi nisi, rhoncus ut vestibulum ac, sollicitudin quis lorem. </p>
+ <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi nisi, rhoncus ut vestibulum ac, sollicitudin quis lorem. </p>
+</div>
 
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#About Ishwarni" class="smoothScroll">About Ishwarni</a></li>
-				<li><a href="#overview" class="smoothScroll">Overview</a></li>
-				<li><a href="#Services" class="smoothScroll">Services</a></li>
-				<li><a href="#Art & Craft" class="smoothScroll">Art & Craft</a></li>
-				<li><a href="#Parenting" class="smoothScroll">Parenting</a></li>
-				<li><a href="#Events" class="smoothScroll">Events</a></li>
-				<li><a href="#Partners" class="">Our Partners</a></li>
-				<li><a href="#Reach Out" class="smoothScroll">Reach Out</a></li>
-			</ul>
+<div id="contact">
+<h1>If you have any question or query you can contact us at <br>talkerscode@gmail.com <br><br>or you can fill the form below</h1>
+<input type="text" placeholder="Name">
+<textarea placeholder="Message"></textarea>
+<input type="submit" value="SEND">
+</div>
 
-		</div>
-
-
+</body>
+</html>

@@ -250,8 +250,7 @@ p {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-  #fh5co-header .fh5co-social hr{
-    background-color: #000000;
+  #fh5co-header .fh5co-social hr{hr style="height:2px;border-width:0;background-color:black;
 }
 @media screen and (max-width: 1200px) {
   #fh5co-header .fh5co-social {

@@ -259,14 +259,8 @@ p {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-  #fh5co-header .fh5co-social hr { display: block;
-    margin-top: 100px ;
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
+  #fh5co-header .fh5co-social hr {
     border-style: dotted;
-    background-color: black;
-    Padding:50px;
     border-width: 1px;}
 
 @media screen and (max-width: 1200px) {

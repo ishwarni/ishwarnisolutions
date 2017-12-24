@@ -259,9 +259,11 @@ p {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-  #fh5co-header .fh5co-social hr {
-    border-style: dotted;
-    border-width: 1px;}
+  #fh5co-header .fh5co-social hr {height: 1px;
+    color: #ed1d61;
+    background: #ed1d61;
+    font-size: 0;
+    border: 0;}
 
 @media screen and (max-width: 1200px) {
   #fh5co-header .fh5co-social {

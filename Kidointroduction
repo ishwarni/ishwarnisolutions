@@ -118,14 +118,14 @@
 					
 				
 				<video width="400" controls>
-  					<source src="images/Facts.mp4" type="video/mp4">
+  					<source src="images/Kidointroduction.mp4" type="video/mp4">
   					<source src="mov_bbb.ogg" type="video/ogg">
  					 Your browser does not support HTML5 video.
 				</video>
 
 				</figure>
-				<span class="fh5co-meta animate-box"><a href="Fact.html">Kido Zone</a></span>
-				<h2 class="fh5co-article-title animate-box"><a href="single.html"></a></h2>
+				<span class="fh5co-meta animate-box"><a href="Kidointroduction.html">About Kido Zone</a></span>
+				<h2 class="fh5co-article-title animate-box"><a href="Kidointroduction.html"></a></h2>
 				<span class="fh5co-meta fh5co-date animate-box"></span>
 			</article>
 		</div>

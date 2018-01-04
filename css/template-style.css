@@ -1,5 +1,5 @@
 body {
-	background: none repeat scroll 0 0 #0b192f;
+	background: none repeat scroll 0 0 #162b4d;
 	color: #fff;
 	font-family: roboto;
 	font-weight: 300;
@@ -36,7 +36,7 @@ header h1 {
 	background: none repeat scroll 0 0 #283D5F;
 }
 .top-nav .active-item a, .top-nav .active-item a:hover {
-	background: none repeat scroll 0 0 #0b192f;
+	background: none repeat scroll 0 0 #162b4d;
 }
 .social {
 	padding: 1.6em;
@@ -175,7 +175,7 @@ footer p, footer a, footer a:link, footer a:active, footer a:visited {
 	color: #637693;
 }
 #article-section h1, #article-section h2, #article-section h3, #article-section h4, #article-section h5, #article-section h6 {
-	color: #0b192f;
+	color: #162b4d;
 	font-weight: 100;
 }
 #article-section h1 {
@@ -218,8 +218,8 @@ p.author {
 }
 a.continue-reading, form.customform button {
 	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
-	border: 1px solid #0b192f;
-	color: #0b192f;
+	border: 1px solid #162b4d;
+	color: #162b4d;
 	display: inline-block;
 	font-size: 0.9em;
 	font-weight: 400;
@@ -236,7 +236,7 @@ form.customform button {
 	margin-top: 0;
 }
 a.continue-reading:hover, form.customform button:hover {
-	background: none repeat scroll 0 0 #0b192f;
+	background: none repeat scroll 0 0 #162b4d;
 	color: #fff;
 }
 a.latest-posts {
@@ -260,7 +260,7 @@ address {
 	font-style: normal;
 }
 address i.icon {
-	background: none repeat scroll 0 0 #0b192f;
+	background: none repeat scroll 0 0 #162b4d;
 	border-radius: 30px;
 	color: #fff;
 	display: block;
@@ -303,7 +303,7 @@ address p {
   }
   .top-nav li a {
   	background: none repeat scroll 0 0 #162b4d;
-  	border-top: 1px solid #0b192f;
+  	border-top: 1px solid #162b4d;
   	color: #fff;
   	display: block;
   }
